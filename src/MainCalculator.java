@@ -6,6 +6,8 @@ public class MainCalculator {
         int a = 6;
         int b = 2;
 
+        System.out.println("pow = "+ new PowClass().pow(a, b));
+
         SumClass sumClass = new SumClass();
         System.out.println("sum = " +sumClass.sum(a,b));
         System.out.println("sub = "+new Class_sub().sub(a,b));
