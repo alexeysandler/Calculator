@@ -6,6 +6,8 @@ public class MainCalculator {
         int a = 6;
         int b = 2;
 
+        System.out.println("exact = "+ new RootClass().root(a,b));
+
         System.out.println("pow = "+ new PowClass().pow(a, b));
 
         SumClass sumClass = new SumClass();
